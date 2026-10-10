@@ -28,18 +28,28 @@ At each step, the algorithm explores the node in the open list with the lowest `
 
 No external libraries (like NumPy or Pygame) are required. This project relies purely on Python's standard library.
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/AbdallaMJS/astar-pathfinding-visualizer.git
-   cd astar-pathfinding-visualizer
-   ```
+### 1. Clone the repository
 
-2. **Run the script:**
-   ```bash
-   python astar.py
-   ```
+```
+git clone https://github.com/AbdallaMJS/astar-pathfinding-visualizer.git
+cd astar-pathfinding-visualizer
+```
+2. Create a virtual environment
+```
+python3 -m venv venv
+```
+3. Activate the virtual environment
+```
+source venv/bin/activate
+```
+After activation, the terminal prompt should usually begin with:
+(venv)
+
+4. Run the program
+```
+python astar.py
    Watch the terminal as the algorithm navigates the maze!
-
+```
 ## 🧠 Educational Value & MBZUAI Relevance
 
 This project is highly relevant to undergraduate AI studies. Pathfinding algorithms form the basis of many AI applications, from robotics and autonomous navigation to game AI. By implementing A* from scratch rather than using a library, it demonstrates a deep understanding of graph traversal, heuristic functions, and the practical application of data structures like priority queues to optimize algorithm time-complexity.
